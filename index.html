@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Hub | Main Bareng Temen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Party<span class="highlight">Hub</span></h1>
+            <p>Pilih game dan buat room buat mabar sirkelmu!</p>
+        </header>
+        <div class="game-grid">
+            <div class="game-card">
+                <div class="card-icon">🕵️‍♂️</div>
+                <h3>Siapa Yang Ngarang?</h3>
+                <p>Satu penyusup di antara kalian. Tanya, jawab, dan temukan siapa yang bohong!</p>
+                <div class="card-actions">
+                    <button class="btn-primary" onclick="createRoom('spyfall')">Buat Room</button>
+                    <button class="btn-secondary" onclick="joinRoom('spyfall')">Join Room</button>
+                </div>
+            </div>
+            <div class="game-card">
+                <div class="card-icon">🤖</div>
+                <h3>AI Survival</h3>
+                <p>Bertahan hidup dari skenario kiamat. Ketik aksimu, AI yang tentukan nasibmu!</p>
+                <div class="card-actions">
+                    <button class="btn-primary" onclick="createRoom('ai-adventure')">Buat Room</button>
+                    <button class="btn-secondary" onclick="joinRoom('ai-adventure')">Join Room</button>
+                </div>
+            </div>
+            <div class="game-card">
+                <div class="card-icon">🏆</div>
+                <h3>Adu Mekanik Otak</h3>
+                <p>Tebak kata dan adu cepat jawab pertanyaan nyeleneh. Kumpulkan poin tertinggi!</p>
+                <div class="card-actions">
+                    <button class="btn-primary" onclick="createRoom('trivia')">Buat Room</button>
+                    <button class="btn-secondary" onclick="joinRoom('trivia')">Join Room</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

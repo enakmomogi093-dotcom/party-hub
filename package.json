@@ -1,0 +1,14 @@
+{
+  "name": "my-game-hub",
+  "version": "1.0.0",
+  "description": "Party Hub Game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/ai-adventure.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
